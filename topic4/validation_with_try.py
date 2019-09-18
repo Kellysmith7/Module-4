@@ -12,6 +12,8 @@ def average(x, y, z):
         raise ValueError
     elif y < 0:
         raise ValueError
+    elif z < 0:
+        raise ValueError
     scores = [x, y, z]
     return sum(scores) / len(scores)
 
