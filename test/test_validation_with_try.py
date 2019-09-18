@@ -1,6 +1,6 @@
 import unittest
 from topic4 import validation_with_try
-from topic4.validation_with_if import average
+from topic4.validation_with_try import average
 
 
 class MyTestCase(unittest.TestCase):
