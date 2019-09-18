@@ -3,7 +3,7 @@ Program: validation_with_try.py
 Author: Kelly Smith
 Last date updated: 09/17/2019
 
-Program to find the average of three numbers and return negative 1 if a negative is entered
+Program to find the average of three numbers and returns a value error if a neagitve number is entered
 """
 
 
