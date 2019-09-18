@@ -26,4 +26,4 @@ def calculate_order(price, cash_coupon, percent_coupon):
 
 
 if __name__ == '__main__':
-    print("Final price is:  $%5.2f" % calculate_order(25, 10, .15))
+    print("Final price is:  $%5.2f" % calculate_order(45, 10, .15))
