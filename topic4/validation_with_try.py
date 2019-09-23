@@ -19,4 +19,11 @@ def average(x, y, z):
 
 
 if __name__ == '__main__':
-    print("Average Score: % 5.2f" % average(-90, -85, -95))
+    try:
+        print(average(-90, 95, 85))
+    except ValueError:
+        print("Number cannot be negative.")
+    else:
+        print("Average calculated.")
+    finally:
+        print("Code execution complete.")
