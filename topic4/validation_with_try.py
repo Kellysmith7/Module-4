@@ -20,7 +20,7 @@ def average(x, y, z):
 
 if __name__ == '__main__':
     try:
-        print(average(90, -95, 85))
+        print(average(-90, 95, 85))
     except ValueError:
         print("Number cannot be negative.")
     else:
